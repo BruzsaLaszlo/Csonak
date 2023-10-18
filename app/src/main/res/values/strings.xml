@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Csonak</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="csorlo">Csörlő</string>
+    <string name="vilagitas">Világítás</string>
+    <string name="elore">Előre</string>
+    <string name="hatra">Hátra</string>
+    <string name="stop">STOP</string>
+    <string name="buttonToCsorlo">Csörlő</string>
+    <string name="led1">LED1</string>
+    <string name="led2">LED2</string>
+    <string name="maps">Maps</string>
+</resources>

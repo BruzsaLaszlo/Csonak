@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/csorloFragment">
+    <fragment
+        android:id="@+id/csorloFragment"
+        android:name="bruzsa.laszlo.csonakapp.ui.csorlo.CsorloFragment"
+        android:label="fragment_csorlo"
+        tools:layout="@layout/fragment_csorlo" />
+    <fragment
+        android:id="@+id/ledFragment"
+        android:name="bruzsa.laszlo.csonakapp.ui.led.LedFragment"
+        android:label="fragment_led"
+        tools:layout="@layout/fragment_led" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="bruzsa.laszlo.csonakapp.ui.map.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+</navigation>
